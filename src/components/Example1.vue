@@ -24,8 +24,8 @@ onMounted(() => {
   </section>
 
   <div class="fixed bootom-4 right-4">
-    <button class="bg-red-500 rounded text-white" @click="shuffle">
-      Shuffle
-    </button>
+    <button class="bg-red-500 rounded text-white m-2" @click="shuffle">Shuffle</button>
+    <button class="bg-red-500 rounded text-white m-2" @click="numbers.push(100)">Add</button>
+    <button class="bg-red-500 rounded text-white m-2" @click="numbers.unshift(100)">Add in begining</button>
   </div>
 </template>
